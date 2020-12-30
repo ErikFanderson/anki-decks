@@ -1,0 +1,201 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "6a644df4-4a3a-11eb-9a02-df97b72efb35",
+    "deck_config_uuid": "6a644df5-4a3a-11eb-9a02-df97b72efb35",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "6a644df5-4a3a-11eb-9a02-df97b72efb35",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 20,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 200
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "name": "ic_prelim",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\nimg {\nwidth: auto;\nheight: auto;\nmax-height: 1000px;\n}",
+            "flds": [
+                {
+                    "font": "Arimo",
+                    "media": [],
+                    "name": "Front",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Back",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "% Default Header\n\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\n% Default packages\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\n% Custom packages\n\\usepackage{siunitx}\n\\usepackage{hyperref}\n\n% Default commands\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\n% Begin the document\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "LaTeX",
+            "req": [
+                [
+                    0,
+                    "all",
+                    [
+                        0,
+                        1
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n[latex]{{Back}}[/latex]",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "[latex]{{Front}}[/latex]"
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the equation for a MOSFET in saturation?",
+                "<div>$I_D = \\frac{1}{2}\\mu_n C_{ox} \\frac{W}{L} (V_{GS} - V_t)^2 (1 + \\lambda V_{DS})$</div>"
+            ],
+            "flags": 0,
+            "guid": "i_]8COP&)#",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the equation for a MOSFET in linear (i.e. deep triode)?",
+                "$I_D = \\mu_n C_{ox} \\frac{W}{L} V_{DS}(V_{GS} - V_t)$"
+            ],
+            "flags": 0,
+            "guid": "k7oAyY!/1:",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the equation for a MOSFET in triode?",
+                "$I_D = \\mu_n C_{ox} \\frac{W}{L} [V_{DS}(V_{GS} - V_t) - \\frac{1}{2}V_{DS}^2]$"
+            ],
+            "flags": 0,
+            "guid": "Ez[,e(PFeI",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the saturation condition for a MOSFET?",
+                "$V_{GS} &gt; V_t \\;\\text{and}\\; V_{DS} &gt; (V_{GS} - V_t)&nbsp;\\;\\text{or}\\;&nbsp;V_{GD} &lt; V_t$"
+            ],
+            "flags": 0,
+            "guid": "b7YUfb`i6E",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the subthreshold condition for a MOSFET?",
+                "$V_{GS} &lt; V_t$"
+            ],
+            "flags": 0,
+            "guid": "zb_VR+LNJ}",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the triode condition for a MOSFET?",
+                "$V_{GS} &gt; V_t \\;\\text{and}\\; V_{DS} &lt; (V_{GS} - V_t) \\;\\text{or}\\; V_{GD} &gt; V_t$"
+            ],
+            "flags": 0,
+            "guid": "tG_MyPI&&W",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "What is the linear (i.e. deep triode) condition for a MOSFET?",
+                "$V_{GS} &gt; V_t \\;\\text{and}\\; V_{DS} &lt;&lt; (V_{GS} - V_t) \\;\\text{or}\\; V_{GD} &gt;&gt; V_t$&nbsp;"
+            ],
+            "flags": 0,
+            "guid": "v%FNjNq+YW",
+            "note_model_uuid": "6a644df8-4a3a-11eb-9a02-df97b72efb35",
+            "tags": []
+        }
+    ]
+}
